@@ -1,0 +1,48 @@
+/*COLORS:
+Header background - #FFDBAA
+button - #805215
+Header Text - #553100
+Main background - #D4A76A*/
+
+
+
+body{
+  margin: 0 0 0 0;
+  height: 100vh;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-areas: 'a b c';
+fdfdfd
+  height: 100%;
+}
+
+h1{
+  color: #553100
+}
+
+header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFDBAA;
+  width: 100%;
+  height: 90px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  height: 100%;
+}
+
+.navLink{
+  background-color: #805215;
+  color: white;
+  height: 50px;
+
+}
